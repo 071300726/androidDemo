@@ -1,0 +1,487 @@
+!SESSION 2015-05-11 14:48:47.030 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-05-11 14:53:55.389
+!MESSAGE Connection to http://dl-ssl.google.com/android/eclipse/p2.index failed on dl-ssl.google.com failed to respond. Retry attempt 0 started
+!STACK 0
+org.apache.http.NoHttpResponseException: dl-ssl.google.com failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-05-11 15:15:51.497 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2015-05-11 15:16:06.506
+!MESSAGE DDMS files not found: C:\Program Files (x86)\Android\android-sdk\platform-tools\adb.exe C:\Program Files (x86)\Android\android-sdk\platform-tools\hprof-conv.exe 
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2015-05-11 15:16:06.513
+!MESSAGE DDMS files not found: C:\Program Files (x86)\Android\android-sdk\platform-tools\adb.exe C:\Program Files (x86)\Android\android-sdk\platform-tools\hprof-conv.exe 
+!SESSION 2015-05-12 09:26:51.254 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:27:33.918
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\connectivity\CardReader\CardReaderSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:27:34.218
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\media\MediaRouter\MediaRouterSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:27:34.312
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\DisplayingBitmaps\DisplayingBitmapsSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:27:34.334
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SlidingTabsBasic\SlidingTabsBasicSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:27:34.346
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SwipeRefreshLayoutBasic\SwipeRefreshLayoutBasicSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:27:34.353
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SwipeRefreshListFragment\SwipeRefreshListFragmentSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:27:34.360
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SwipeRefreshMultipleViews\SwipeRefreshMultipleViewsSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:27:47.957
+!MESSAGE Failed to load properties file for project 'ApiDemos'
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-12 09:27:48.830
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ted.zhanghl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:27:51.862
+!MESSAGE Failed to load properties file for project 'ApiDemos'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:30:58.446
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\connectivity\CardReader\CardReaderSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:30:58.526
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\media\MediaRouter\MediaRouterSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:30:58.565
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\DisplayingBitmaps\DisplayingBitmapsSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:30:58.578
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SlidingTabsBasic\SlidingTabsBasicSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:30:58.582
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SwipeRefreshLayoutBasic\SwipeRefreshLayoutBasicSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:30:58.586
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SwipeRefreshListFragment\SwipeRefreshListFragmentSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 09:30:58.588
+!MESSAGE NPW ignoring malformed manifest C:\Program Files (x86)\Android\android-sdk\samples\android-19\ui\SwipeRefreshMultipleViews\SwipeRefreshMultipleViewsSample\tests\AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:32:17.176
+!MESSAGE Failed to load properties file for project 'tests'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:36:15.145
+!MESSAGE Failed to load properties file for project 'teddemo'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:36:15.914
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.actions.AddSupportJarAction.installAppCompatLibrary(AddSupportJarAction.java:327)
+	at com.android.ide.eclipse.adt.internal.wizards.templates.NewProjectWizard$1.run(NewProjectWizard.java:280)
+	at com.android.ide.eclipse.adt.internal.wizards.templates.NewProjectWizard.performFinish(NewProjectWizard.java:377)
+	at com.android.ide.eclipse.adt.internal.wizards.templates.TemplateWizard$1.run(TemplateWizard.java:201)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:36:24.250
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/teddemo' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:727)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$1(NewProjectCreator.java:712)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$5.run(NewProjectCreator.java:914)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.create(NewProjectCreator.java:933)
+	at com.android.ide.eclipse.adt.internal.wizards.templates.NewProjectWizard.performFinish(NewProjectWizard.java:359)
+	at com.android.ide.eclipse.adt.internal.wizards.templates.TemplateWizard$1.run(TemplateWizard.java:201)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 374 2015-05-12 09:36:24.251
+!MESSAGE Resource '/teddemo' already exists.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:40:01.684
+!MESSAGE Failed to load properties file for project 'teddemo'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.175
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.176
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.177
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.177
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.177
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.178
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.178
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.178
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.179
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.179
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.179
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.180
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.180
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.180
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.181
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.181
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.181
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.181
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.182
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.182
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.182
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.183
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.186
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.187
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.188
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.188
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.189
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.189
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.190
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.190
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.191
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.191
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.192
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.192
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.192
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.193
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.193
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.194
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.194
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.194
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.195
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.195
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.196
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.196
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.196
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.197
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.197
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.198
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.199
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.199
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.200
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.200
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.201
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.201
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.202
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.203
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.203
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.204
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.204
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.204
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.204
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.205
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.205
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.206
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.206
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.207
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.207
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.207
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.208
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.208
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.208
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.209
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.209
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.209
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.210
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.210
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.211
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.212
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.212
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.213
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.213
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.214
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.216
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.216
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.217
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.217
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-05-12 09:53:36.268
+!MESSAGE Current file is not a match for the given config.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-12 11:01:28.679
+!MESSAGE No valid Android XML Editor Delegate found for file /teddemo/AndroidManifest.xml [Res null, type null]
+
+!ENTRY org.eclipse.ui 4 4 2015-05-12 11:56:58.088
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+!SESSION 2015-05-14 14:28:28.740 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-14 14:28:55.052
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ted.zhanghl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-14 15:58:22.968
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /teddemo/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-14 15:58:22.969
+!MESSAGE No valid Android XML Editor Delegate found for file /teddemo/AndroidManifest.xml [Res null, type null]
+
+!ENTRY org.eclipse.ui 4 0 2015-05-14 15:59:25.537
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 4 2015-05-14 16:21:53.617
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-05-14 16:21:53.618
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-05-14 16:21:53.618
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-05-14 16:21:53.618
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-05-14 16:21:53.619
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-05-14 16:21:53.620
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-14 18:15:27.147
+!MESSAGE No valid Android XML Editor Delegate found for file /teddemo/AndroidManifest.xml [Res null, type null]
