@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
   $scope.chat = Chats.get($stateParams.chatId);
   $scope.output1 = "1";
   
-   $scope.clickAlert = function(){
+  $scope.clickAlert = function(){
      alert("hi");
    };
   
